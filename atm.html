@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="./atmLogic.js" defer></script>
+    <title>CatBank</title>
+</head>
+<body>
+    <div class="section">
+        <section class="section-1">
+          
+    
+          <div class="image">
+            <img src="./images/c1.png" alt="cat-card">
+          </div>
+          <h2 class="catBank">
+            Bienvenido(a)
+          </h2>
+          <p id="nameUser"></p>
+          <button type="button" id="btn-consult">Consultar</button>
+          <button type="button" id="btn-add">Ingresar</button>
+          <button type="button" id="btn-sustract" class="final-btn">Retirar</button>
+
+          <button type="button" id="btn-logOut" class="final-btn">Salir</button>
+
+        </section>
+
+
+
+        <section class="section-2">
+          <div class="container-form">
+            <h2 id="dinamic-title" class="dinamic-title">
+            ¿Que desea hacer?
+            </h2>
+
+            <p id="message"></p>
+            
+
+
+            <form id="form-add">
+              <input type="number" id="input-add" placeholder="Ingresa un monto">
+            <button type="submit">Transferir</button>
+            </form>
+
+
+            <form id="form-sustract">
+              <input type="number" id="input-sustract" placeholder="Ingresa un monto">
+            <button type="submit">Retirar</button>
+            </form>
+
+         
+    
+          </div>
+    
+        </section>
+      </div>
+
+      
+</body>
+</html>

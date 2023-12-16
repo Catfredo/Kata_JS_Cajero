@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatBank</title>
+  <link rel="icon" href="./images/cat-card.png" type="image/png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="./App.js" defer></script>
+</head>
+
+<body>
+
+  <div class="section">
+    <section class="section-1">
+      <h2 class="catBank">
+        CatBank
+      </h2>
+      <div class="image">
+        <img src="./images/c1.png" alt="cat-card">
+      </div>
+    </section>
+    <section class="section-2">
+      <div class="container-form">
+        <h2>
+          Login
+        </h2>
+
+        <form id="formId">
+          <select id="select-form" class="form-select select-1" aria-label="Default select example">
+            <option selected disabled>Accounts</option>
+            <option value="Romina Arenas">Romina Arenas</option>
+            <option value="Luis García">Luis García</option>
+            <option value="Mar Demeneghi">Mar Demeneghi</option>
+          </select>
+
+          <h3 class="password">
+            Password
+          </h3>
+          <input type="password" id="inputPassword" placeholder="Ingresa tu contraseña">
+
+          <button type="submit" class="btn-submit">Sign in</button>
+
+
+        </form>
+
+        <p id="message"></p>
+
+
+      </div>
+
+    </section>
+  </div>
+
+</body>
+
+</html>
